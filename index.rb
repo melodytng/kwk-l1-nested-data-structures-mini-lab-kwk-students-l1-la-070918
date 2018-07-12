@@ -7,7 +7,9 @@ ingredients = [
 ]
 
 def sandwich_request(ingredients, order) 
-  while order < 
+  count = 0
+  while count < order.size
+  
 end
 
 # example city_info hash
