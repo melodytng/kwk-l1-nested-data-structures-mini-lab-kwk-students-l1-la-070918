@@ -14,6 +14,8 @@ def sandwich_request(ingredients, order)
       arrays.each do |items|
         if order[count] = items
           in_stock = true 
+        else
+          in_stock = false
         end
       end
     end
