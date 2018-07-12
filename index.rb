@@ -19,6 +19,7 @@ def sandwich_request(ingredients, order)
     end
   end
 end
+sandwich_request(ingredients, order= ["rye"])
 
 # example city_info hash
 cities = {
