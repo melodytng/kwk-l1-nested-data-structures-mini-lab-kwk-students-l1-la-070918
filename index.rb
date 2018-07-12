@@ -8,8 +8,16 @@ ingredients = [
 
 def sandwich_request(ingredients, order) 
   count = 0
+  in_stock = false
   while count < order.size
-  
+    ingredients.each do |arrays|
+      arrays.each do |items|
+        if order[count] == items
+          in_stock = true 
+        end
+      end
+    end
+  end
 end
 
 # example city_info hash
