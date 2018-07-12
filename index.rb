@@ -12,7 +12,7 @@ def sandwich_request(ingredients, order)
   while count < order.size
     ingredients.each do |arrays|
       arrays.each do |items|
-        if order[count] == items
+        if order[count] = items
           in_stock = true 
         end
       end
